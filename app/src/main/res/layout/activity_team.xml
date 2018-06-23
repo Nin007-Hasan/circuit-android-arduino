@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="32sp">
+    <TextView
+        android:id="@+id/welcome_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8sp"
+        android:text="We Are"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/welcome_txt"
+        android:text="Close"
+        android:layout_marginTop="16sp"
+        android:background="@android:color/holo_green_light"
+        android:textColor="@android:color/white"/>
+    <!--<android.support.v7.widget.CardView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+    <!--</android.support.v7.widget.CardView>-->
+
+</RelativeLayout>
